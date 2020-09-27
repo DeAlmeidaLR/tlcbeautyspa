@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+  <head>
+    <meta charset="utf-8">
+    <title>tlcbeautyspa</title>
+    <link rel="stylesheet" href="style1.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<style>
+.container{
+  word-break: break-all;
+  height:auto;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.about{
+  width:100%;
+  height: 500px;
+  background-image: url(1.jpeg);
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.text{
+  font-size: 30px;
+  color:#fff;
+  font-family: sans-serif;
+  text-shadow: 0px 15px 12px #000;
+}
+.line{
+  width:200px;
+  height: 4px;
+  background-color: #82ccdd;
+  display: block;
+  position: relative;
+  border-radius: 5px;
+  left:18%;
+  box-shadow: 0px 15px 12px 0px #000;
+}
+.content{
+  height: 230px;
+  background-color: #ffe9f4;
+  font-size: 21px;
+overflow: auto;
+  color:#333;
+  line-height: 30px;
+  text-align: center;
+}
+b{
+  font-size: 35px;
+  color:#000;
+  font-weight: 500px;
+}
+
+  </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+<li class="logo"><h2>tlcbeautyspa</h2></li>
+<li class="items"><a href="index.html">Home</a></li>
+<li class="items"><a href="services.html">Services</a></li>
+<li class="items"><a href="prices.html">Prices</a></li>
+<li class="items"><a href="contact.html">Contact</a></li>
+<li class="btn"><a href="#"><i class="fas fa-bars"></i></a></li>
+</ul>
+</nav>
+
+
+  <div class="container">
+    <div class="about">
+      <div class="section-title">
+        <h1>About Us</h1>
+        <div class="line"></div>
+      </div>
+    </div>
+
+    <div class="content">
+
+
+      <p><b>TLC</b> (Tender Loving Care) beauty spa was founded in 2017. It is formally known as TLC Footspa and Massage. <br>At TLC beauty spa, we are committed to assisting our clients in their quest to look and feel better. All clients helped have given us great reviews. <br>Our mission is to deliver an extra-ordinary experienec in Spa wellness. We are constantly looking for ways to improve the lives of our cients by introducing new treatments.</p>
+    </div>
+    </div>
+
+   <footer class="footer-distributed">
+ 
+    <div class="footer-left">
+ 
+    <h3>TLC<span>Spa</span></h3>
+ 
+    <p class="footer-links">
+    <a href="index.html">Home</a>
+  ·
+    <a href="services.html">Services</a>
+  ·
+    <a href="prices.html">Prices</a>
+  ·
+    <a href="contact.html">Contact</a>
+    </p>
+ 
+    <p class="footer-company-name">tlcbeautyspa &copy; 2020</p>
+    </div>
+ 
+    <div class="footer-center">
+ 
+    <div>
+    <i class="fa fa-map-marker"></i>
+    <p><span>Tutungeni, .... str</span> Rundu, Namibia</p>
+    </div>
+ 
+    <div>
+    <i class="fa fa-phone"></i>
+    <p>+264 81 738 5918</p>
+    </div>
+ 
+    <div>
+    <i class="fa fa-envelope"></i>
+    <p><a href="mailto:support@company.com">tlcbeautyspa03@gmail.com</a></p>
+    </div>
+ 
+    </div>
+ 
+    <div class="footer-right">
+ 
+    <p class="footer-company-about">
+    <span>About the company</span>
+    TLC(Tender Loving Care) was founded by Iyaloo Iita in 2017. And it is now formally known as TLC footspa & Massage.
+    </p>
+ 
+    
+ 
+    </div>
+ 
+    </footer>
+
+
+    <script>
+      $(document).ready(function(){
+        $('.btn').click(function(){
+          $('.items').toggleClass("show");
+          $('ul li').toggleClass("hide");
+        });
+      });
+    </script>
+  </body>
+</html>
